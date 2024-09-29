@@ -27,7 +27,10 @@ async function searchOnlyZeppelinRelatedArtifact(uri) {
   };
 
   return fetch(uri).then(async (result) => {
-    const response = (await result.json()).response;
+    const responseText = await result.text();
+    console.log(`Root URI: ${uri}`);
+    console.log(`Root URI Fetch Result: ${responseText}`);
+    const response = JSON.parse(responseText).response;
     const body = response.docs;
 
     for (const artifact in body) {
@@ -59,7 +62,7 @@ function createSlashedGroupId(groupId) {
 }
 
 function createPomUrl(groupId, artifactId, version) {
-  const baseUri = 'http://repo1.maven.org/maven2/';
+  const baseUri = 'https://repo1.maven.org/maven2/';
   const slashedGroupId = createSlashedGroupId(groupId);
 
   if (slashedGroupId) {
@@ -73,7 +76,7 @@ async function getAllVersionInfo(zeppelinList) {
   // get all version of an artifact
   return _.map(zeppelinList, function (resources) {
     const baseUri =
-      'http://search.maven.org/solrsearch/select?q=g:%22' +
+      'https://search.maven.org/solrsearch/select?q=g:%22' +
       resources.groupId +
       '%22+AND+a:%22' +
       resources.artifactId +
@@ -84,7 +87,10 @@ async function getAllVersionInfo(zeppelinList) {
     };
 
     return fetch(baseUri).then(async (result) => {
-      const response = (await result.json()).response;
+      const responseText = await result.text();
+      console.log(`Base URI: ${baseUri}`);
+      console.log(`Base URI Fetch Result: ${responseText}`);
+      const response = JSON.parse(responseText).response;
       const body = response.docs;
       const pomUriListEachVer = {};
 
@@ -123,7 +129,7 @@ function getEachPomFileContent(pomUriList) {
         const published = ver.published;
         const version = ver.version;
 
-        const pomUri = ver.pomUri.replace('http', 'https');
+        const pomUri = ver.pomUri;
         return fetch(pomUri).then(async (result) => {
           const response = await result.text();
 
@@ -268,17 +274,17 @@ const delay = (timeToDelay) => new Promise((resolve) => setTimeout(resolve, time
 const result = {};
 
 export async function getBasicMavenHandler(callback) {
-  const uri = 'http://search.maven.org/solrsearch/select?q=zeppelin&rows=200';
+  const uri = 'https://search.maven.org/solrsearch/select?q=zeppelin&rows=200';
   await searchOnlyZeppelinRelatedArtifact(uri);
-  await delay(5000);
+  await delay(8000);
   await getAllVersionInfo(zeppelinList);
-  await delay(3000);
+  await delay(6000);
   await getEachPomFileContent(pomUriList);
-  await delay(3000);
+  await delay(6000);
   await parseXmlToJson(responseList);
-  await delay(3000);
+  await delay(6000);
   await filterWithGivenArtifact(bodyList);
-  await delay(3000);
+  await delay(6000);
   _.map(finalArtifactList, function (artifact) {
     if (!_.isEmpty(artifact)) {
       for (const key in artifact) {

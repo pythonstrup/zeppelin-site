@@ -78,6 +78,6 @@ export async function fetchHelium() {
       await getDependencies(dependant);
     }
   });
-  await delay(10000);
+  await delay(12000);
   return finalResult;
 }
