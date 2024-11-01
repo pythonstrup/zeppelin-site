@@ -1,423 +1,5 @@
 [
   {
-    "flink-scala-2.12": {
-      "latest": {
-        "type": "INTERPRETER",
-        "name": "flink-scala-2.12",
-        "version": "0.11.2",
-        "published": "2024-08-18T11:56:18+00:00",
-        "artifact": "flink-scala-2.12@0.11.2",
-        "description": "Zeppelin: Flink Interpreter Scala_2.12",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "flink-scala-2.12"
-      },
-      "0.11.1": {
-        "type": "INTERPRETER",
-        "name": "flink-scala-2.12",
-        "version": "0.11.1",
-        "published": "2024-03-29T06:26:44+00:00",
-        "artifact": "flink-scala-2.12@0.11.1",
-        "description": "Zeppelin: Flink Interpreter Scala_2.12",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "flink-scala-2.12"
-      },
-      "0.11.0": {
-        "type": "INTERPRETER",
-        "name": "flink-scala-2.12",
-        "version": "0.11.0",
-        "published": "2024-02-16T12:23:03+00:00",
-        "artifact": "flink-scala-2.12@0.11.0",
-        "description": "Zeppelin: Flink Interpreter Scala_2.12",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "flink-scala-2.12"
-      }
-    },
-    "spark-interpreter": {
-      "latest": {
-        "type": "INTERPRETER",
-        "name": "spark-interpreter",
-        "version": "0.11.2",
-        "published": "2024-08-18T12:00:48+00:00",
-        "artifact": "spark-interpreter@0.11.2",
-        "description": "Zeppelin spark support",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "spark-interpreter"
-      },
-      "0.11.1": {
-        "type": "INTERPRETER",
-        "name": "spark-interpreter",
-        "version": "0.11.1",
-        "published": "2024-03-29T06:31:26+00:00",
-        "artifact": "spark-interpreter@0.11.1",
-        "description": "Zeppelin spark support",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "spark-interpreter"
-      },
-      "0.11.0": {
-        "type": "INTERPRETER",
-        "name": "spark-interpreter",
-        "version": "0.11.0",
-        "published": "2024-02-16T12:29:16+00:00",
-        "artifact": "spark-interpreter@0.11.0",
-        "description": "Zeppelin spark support",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "spark-interpreter"
-      }
-    },
-    "spark-scala-parent": {
-      "latest": {
-        "type": "INTERPRETER",
-        "name": "spark-scala-parent",
-        "version": "0.11.2",
-        "published": "2024-08-18T11:53:44+00:00",
-        "artifact": "spark-scala-parent@0.11.2",
-        "description": "Zeppelin: Spark Scala Parent",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "spark-scala-parent"
-      },
-      "0.11.1": {
-        "type": "INTERPRETER",
-        "name": "spark-scala-parent",
-        "version": "0.11.1",
-        "published": "2024-03-29T06:23:48+00:00",
-        "artifact": "spark-scala-parent@0.11.1",
-        "description": "Zeppelin: Spark Scala Parent",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "spark-scala-parent"
-      },
-      "0.11.0": {
-        "type": "INTERPRETER",
-        "name": "spark-scala-parent",
-        "version": "0.11.0",
-        "published": "2024-02-16T12:19:16+00:00",
-        "artifact": "spark-scala-parent@0.11.0",
-        "description": "Zeppelin: Spark Scala Parent",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "spark-scala-parent"
-      }
-    },
-    "spark-shims": {
-      "latest": {
-        "type": "INTERPRETER",
-        "name": "spark-shims",
-        "version": "0.11.2",
-        "published": "2024-08-18T12:01:29+00:00",
-        "artifact": "spark-shims@0.11.2",
-        "description": "Zeppelin: Spark Shims",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "spark-shims"
-      },
-      "0.11.1": {
-        "type": "INTERPRETER",
-        "name": "spark-shims",
-        "version": "0.11.1",
-        "published": "2024-03-29T06:32:07+00:00",
-        "artifact": "spark-shims@0.11.1",
-        "description": "Zeppelin: Spark Shims",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "spark-shims"
-      },
-      "0.11.0": {
-        "type": "INTERPRETER",
-        "name": "spark-shims",
-        "version": "0.11.0",
-        "published": "2024-02-16T12:30:07+00:00",
-        "artifact": "spark-shims@0.11.0",
-        "description": "Zeppelin: Spark Shims",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "spark-shims"
-      }
-    },
-    "spark3-shims": {
-      "latest": {
-        "type": "INTERPRETER",
-        "name": "spark3-shims",
-        "version": "0.11.2",
-        "published": "2024-08-18T11:53:58+00:00",
-        "artifact": "spark3-shims@0.11.2",
-        "description": "Zeppelin: Spark3 Shims",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "spark3-shims"
-      },
-      "0.11.1": {
-        "type": "INTERPRETER",
-        "name": "spark3-shims",
-        "version": "0.11.1",
-        "published": "2024-03-29T06:24:03+00:00",
-        "artifact": "spark3-shims@0.11.1",
-        "description": "Zeppelin: Spark3 Shims",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "spark3-shims"
-      },
-      "0.11.0": {
-        "type": "INTERPRETER",
-        "name": "spark3-shims",
-        "version": "0.11.0",
-        "published": "2024-02-16T12:19:34+00:00",
-        "artifact": "spark3-shims@0.11.0",
-        "description": "Zeppelin: Spark3 Shims",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "spark3-shims"
-      }
-    },
-    "zeppelin-cassandra": {
-      "latest": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-cassandra",
-        "version": "0.11.2",
-        "published": "2024-08-18T11:52:23+00:00",
-        "artifact": "zeppelin-cassandra@0.11.2",
-        "description": "Zeppelin cassandra support",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "zeppelin-cassandra"
-      },
-      "0.11.1": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-cassandra",
-        "version": "0.11.1",
-        "published": "2024-03-29T06:22:26+00:00",
-        "artifact": "zeppelin-cassandra@0.11.1",
-        "description": "Zeppelin cassandra support",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "zeppelin-cassandra"
-      },
-      "0.11.0": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-cassandra",
-        "version": "0.11.0",
-        "published": "2024-02-16T12:17:47+00:00",
-        "artifact": "zeppelin-cassandra@0.11.0",
-        "description": "Zeppelin cassandra support",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "zeppelin-cassandra"
-      }
-    },
-    "zeppelin-flink-cmd": {
-      "latest": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-flink-cmd",
-        "version": "0.11.2",
-        "published": "2024-08-18T11:54:38+00:00",
-        "artifact": "zeppelin-flink-cmd@0.11.2",
-        "description": "Zeppelin: Flink-Cmd interpreter",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "zeppelin-flink-cmd"
-      },
-      "0.11.1": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-flink-cmd",
-        "version": "0.11.1",
-        "published": "2024-03-29T06:24:40+00:00",
-        "artifact": "zeppelin-flink-cmd@0.11.1",
-        "description": "Zeppelin: Flink-Cmd interpreter",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "zeppelin-flink-cmd"
-      },
-      "0.11.0": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-flink-cmd",
-        "version": "0.11.0",
-        "published": "2024-02-16T12:20:14+00:00",
-        "artifact": "zeppelin-flink-cmd@0.11.0",
-        "description": "Zeppelin: Flink-Cmd interpreter",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "zeppelin-flink-cmd"
-      }
-    },
-    "zeppelin-interpreter-parent": {
-      "latest": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-interpreter-parent",
-        "version": "0.11.2",
-        "published": "2024-08-18T11:55:27+00:00",
-        "artifact": "zeppelin-interpreter-parent@0.11.2",
-        "description": "Zeppelin: Interpreter Parent",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "zeppelin-interpreter-parent"
-      },
-      "0.11.1": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-interpreter-parent",
-        "version": "0.11.1",
-        "published": "2024-03-29T06:25:35+00:00",
-        "artifact": "zeppelin-interpreter-parent@0.11.1",
-        "description": "Zeppelin: Interpreter Parent",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "zeppelin-interpreter-parent"
-      },
-      "0.11.0": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-interpreter-parent",
-        "version": "0.11.0",
-        "published": "2024-02-16T12:21:32+00:00",
-        "artifact": "zeppelin-interpreter-parent@0.11.0",
-        "description": "Zeppelin: Interpreter Parent",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "zeppelin-interpreter-parent"
-      }
-    },
-    "zeppelin-iotdb": {
-      "latest": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-iotdb",
-        "version": "1.3.2",
-        "published": "2024-06-27T07:06:17+00:00",
-        "artifact": "zeppelin-iotdb@1.3.2",
-        "description": "Zeppelin IoTDB support",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.iotdb",
-        "artifactId": "zeppelin-iotdb"
-      },
-      "1.3.1": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-iotdb",
-        "version": "1.3.1",
-        "published": "2024-04-19T08:49:13+00:00",
-        "artifact": "zeppelin-iotdb@1.3.1",
-        "description": "Zeppelin IoTDB support",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.iotdb",
-        "artifactId": "zeppelin-iotdb"
-      },
-      "1.3.0": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-iotdb",
-        "version": "1.3.0",
-        "published": "2023-12-27T04:17:42+00:00",
-        "artifact": "zeppelin-iotdb@1.3.0",
-        "description": "Zeppelin IoTDB support",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.iotdb",
-        "artifactId": "zeppelin-iotdb"
-      }
-    },
-    "zeppelin-jupyter-interpreter": {
-      "latest": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-jupyter-interpreter",
-        "version": "0.11.2",
-        "published": "2024-08-18T11:56:40+00:00",
-        "artifact": "zeppelin-jupyter-interpreter@0.11.2",
-        "description": "Zeppelin: Jupyter Interpreter",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "zeppelin-jupyter-interpreter"
-      },
-      "0.11.1": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-jupyter-interpreter",
-        "version": "0.11.1",
-        "published": "2024-03-29T06:27:07+00:00",
-        "artifact": "zeppelin-jupyter-interpreter@0.11.1",
-        "description": "Zeppelin: Jupyter Interpreter",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "zeppelin-jupyter-interpreter"
-      },
-      "0.11.0": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-jupyter-interpreter",
-        "version": "0.11.0",
-        "published": "2024-02-16T12:23:35+00:00",
-        "artifact": "zeppelin-jupyter-interpreter@0.11.0",
-        "description": "Zeppelin: Jupyter Interpreter",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "zeppelin-jupyter-interpreter"
-      }
-    },
-    "zeppelin-zengine": {
-      "latest": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-zengine",
-        "version": "0.11.2",
-        "published": "2024-08-18T11:58:32+00:00",
-        "artifact": "zeppelin-zengine@0.11.2",
-        "description": "Zeppelin Zengine",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "zeppelin-zengine"
-      },
-      "0.11.1": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-zengine",
-        "version": "0.11.1",
-        "published": "2024-03-29T06:29:09+00:00",
-        "artifact": "zeppelin-zengine@0.11.1",
-        "description": "Zeppelin Zengine",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "zeppelin-zengine"
-      },
-      "0.11.0": {
-        "type": "INTERPRETER",
-        "name": "zeppelin-zengine",
-        "version": "0.11.0",
-        "published": "2024-02-16T12:26:44+00:00",
-        "artifact": "zeppelin-zengine@0.11.0",
-        "description": "Zeppelin Zengine",
-        "license": "Apache-2.0",
-        "icon": "<i class=\"fa fa-rocket\"></i>",
-        "groupId": "org.apache.zeppelin",
-        "artifactId": "zeppelin-zengine"
-      }
-    },
     "flink-parent": {
       "latest": {
         "type": "INTERPRETER",
@@ -454,6 +36,44 @@
         "icon": "<i class=\"fa fa-rocket\"></i>",
         "groupId": "org.apache.zeppelin",
         "artifactId": "flink-parent"
+      }
+    },
+    "flink-scala-2.12": {
+      "latest": {
+        "type": "INTERPRETER",
+        "name": "flink-scala-2.12",
+        "version": "0.11.2",
+        "published": "2024-08-18T11:56:18+00:00",
+        "artifact": "flink-scala-2.12@0.11.2",
+        "description": "Zeppelin: Flink Interpreter Scala_2.12",
+        "license": "Apache-2.0",
+        "icon": "<i class=\"fa fa-rocket\"></i>",
+        "groupId": "org.apache.zeppelin",
+        "artifactId": "flink-scala-2.12"
+      },
+      "0.11.1": {
+        "type": "INTERPRETER",
+        "name": "flink-scala-2.12",
+        "version": "0.11.1",
+        "published": "2024-03-29T06:26:44+00:00",
+        "artifact": "flink-scala-2.12@0.11.1",
+        "description": "Zeppelin: Flink Interpreter Scala_2.12",
+        "license": "Apache-2.0",
+        "icon": "<i class=\"fa fa-rocket\"></i>",
+        "groupId": "org.apache.zeppelin",
+        "artifactId": "flink-scala-2.12"
+      },
+      "0.11.0": {
+        "type": "INTERPRETER",
+        "name": "flink-scala-2.12",
+        "version": "0.11.0",
+        "published": "2024-02-16T12:23:03+00:00",
+        "artifact": "flink-scala-2.12@0.11.0",
+        "description": "Zeppelin: Flink Interpreter Scala_2.12",
+        "license": "Apache-2.0",
+        "icon": "<i class=\"fa fa-rocket\"></i>",
+        "groupId": "org.apache.zeppelin",
+        "artifactId": "flink-scala-2.12"
       }
     },
     "flink-shims": {
@@ -722,6 +342,44 @@
         "artifactId": "zeppelin-bigquery"
       }
     },
+    "zeppelin-cassandra": {
+      "latest": {
+        "type": "INTERPRETER",
+        "name": "zeppelin-cassandra",
+        "version": "0.11.2",
+        "published": "2024-08-18T11:52:23+00:00",
+        "artifact": "zeppelin-cassandra@0.11.2",
+        "description": "Zeppelin cassandra support",
+        "license": "Apache-2.0",
+        "icon": "<i class=\"fa fa-rocket\"></i>",
+        "groupId": "org.apache.zeppelin",
+        "artifactId": "zeppelin-cassandra"
+      },
+      "0.11.1": {
+        "type": "INTERPRETER",
+        "name": "zeppelin-cassandra",
+        "version": "0.11.1",
+        "published": "2024-03-29T06:22:26+00:00",
+        "artifact": "zeppelin-cassandra@0.11.1",
+        "description": "Zeppelin cassandra support",
+        "license": "Apache-2.0",
+        "icon": "<i class=\"fa fa-rocket\"></i>",
+        "groupId": "org.apache.zeppelin",
+        "artifactId": "zeppelin-cassandra"
+      },
+      "0.11.0": {
+        "type": "INTERPRETER",
+        "name": "zeppelin-cassandra",
+        "version": "0.11.0",
+        "published": "2024-02-16T12:17:47+00:00",
+        "artifact": "zeppelin-cassandra@0.11.0",
+        "description": "Zeppelin cassandra support",
+        "license": "Apache-2.0",
+        "icon": "<i class=\"fa fa-rocket\"></i>",
+        "groupId": "org.apache.zeppelin",
+        "artifactId": "zeppelin-cassandra"
+      }
+    },
     "zeppelin-elasticsearch": {
       "latest": {
         "type": "INTERPRETER",
@@ -796,6 +454,44 @@
         "icon": "<i class=\"fa fa-rocket\"></i>",
         "groupId": "org.apache.zeppelin",
         "artifactId": "zeppelin-file"
+      }
+    },
+    "zeppelin-flink-cmd": {
+      "latest": {
+        "type": "INTERPRETER",
+        "name": "zeppelin-flink-cmd",
+        "version": "0.11.2",
+        "published": "2024-08-18T11:54:38+00:00",
+        "artifact": "zeppelin-flink-cmd@0.11.2",
+        "description": "Zeppelin: Flink-Cmd interpreter",
+        "license": "Apache-2.0",
+        "icon": "<i class=\"fa fa-rocket\"></i>",
+        "groupId": "org.apache.zeppelin",
+        "artifactId": "zeppelin-flink-cmd"
+      },
+      "0.11.1": {
+        "type": "INTERPRETER",
+        "name": "zeppelin-flink-cmd",
+        "version": "0.11.1",
+        "published": "2024-03-29T06:24:40+00:00",
+        "artifact": "zeppelin-flink-cmd@0.11.1",
+        "description": "Zeppelin: Flink-Cmd interpreter",
+        "license": "Apache-2.0",
+        "icon": "<i class=\"fa fa-rocket\"></i>",
+        "groupId": "org.apache.zeppelin",
+        "artifactId": "zeppelin-flink-cmd"
+      },
+      "0.11.0": {
+        "type": "INTERPRETER",
+        "name": "zeppelin-flink-cmd",
+        "version": "0.11.0",
+        "published": "2024-02-16T12:20:14+00:00",
+        "artifact": "zeppelin-flink-cmd@0.11.0",
+        "description": "Zeppelin: Flink-Cmd interpreter",
+        "license": "Apache-2.0",
+        "icon": "<i class=\"fa fa-rocket\"></i>",
+        "groupId": "org.apache.zeppelin",
+        "artifactId": "zeppelin-flink-cmd"
       }
     },
     "zeppelin-groovy": {
